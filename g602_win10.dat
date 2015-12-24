@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<obprofiles xmlns="http://www.logitech.com/Cassandra/2013.1/OnboardProfile">
+  <profile name="">
+    <device model="Logitech.Gaming.Mouse.G602" buttoncount="11" anglesnapping="0" powermode="1" reportrate="500">
+      <dpitable shift="500" defaultindex="2">
+        <dpi x="500" y="500"/>
+        <dpi x="1000" y="1000"/>
+        <dpi x="1500" y="1500"/>
+        <dpi x="2000" y="2000"/>
+        <dpi x="2500" y="2500"/>
+      </dpitable>
+    </device>
+    <buttons>
+      <button name="左键单击" number="1">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </button>
+      <button name="右键单击" number="2">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </button>
+      <button name="Left Windows + Q" number="3">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="Q"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="Page Down" number="4">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="PAGEDOWN"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Left Windows + Left" number="5">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LEFT"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="Left Windows + Tab" number="6">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="TAB"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="Page Up" number="7">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="PAGEUP"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Left Windows + Right" number="8">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="RIGHT"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="Left Windows + D" number="9">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="D"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Tab" number="10">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="TAB"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + F4" number="11">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F4"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+    </buttons>
+  </profile>
+</obprofiles>
